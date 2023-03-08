@@ -1,0 +1,44 @@
+#root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.content {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.copyButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  height: 25%;
+  width: 25%;
+}
